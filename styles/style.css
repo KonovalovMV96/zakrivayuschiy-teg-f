@@ -17,4 +17,21 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+
+  color: var(--text-color, #000000);
+  background-color: var(--page-background-color, #ffffff);
+  font-family: var(--main-font-family, sans-serif);
+  font-variation-settings: 'wdth' var(--main-font-weight);
+
+
+  /* font-size: 18px;
+  line-height: 23.4px;
+  background-color: var(--bg-color, #000028);
+  background-image: var(
+    --page-background-image,
+    url("../images/cover-image.png")
+  );
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; */
 }
