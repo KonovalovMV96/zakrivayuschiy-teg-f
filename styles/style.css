@@ -103,9 +103,9 @@
   font-size: 14px;
   text-transform: uppercase;
   background: transparent;
+  transition: opacity 0.3s ease;
   cursor: pointer;
   appearance: none;
-  transition: opacity 0.3s ease;
 }
 
 .theme-menu__button:hover {
@@ -125,7 +125,7 @@
 
 .theme-menu__button:disabled::before {
   content: "▶";
-  position: absolute;  
+  position: absolute;
   animation: shift 0.5s ease-in-out infinite alternate;
   inset-inline-start: -20px;
   inset-block-start: 0px;
@@ -233,11 +233,11 @@
   background: transparent;
   transition: border-color 0.3s ease;
   cursor: pointer;
-  appearance: none; 
+  appearance: none;
 }
 
 .like-icon {
-vertical-align: middle;
+  vertical-align: middle;
 }
 
 .card__icon-button:focus {
